@@ -132,7 +132,7 @@ option {
   font-weight: 700;
 }
 
-.fa-bars{
+.non {
   display: none;
 }
 
@@ -186,7 +186,10 @@ option {
     width: 28.724px;
     height: auto;
   }
-  .fa-bars{
+  .non {
+    display: inline;
+  }
+  .fa-bars {
     font-size: 24px;
   }
 }
