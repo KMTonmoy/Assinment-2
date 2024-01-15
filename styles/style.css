@@ -2,8 +2,6 @@
 * {
   margin: 0;
   font-family: "Mulish", sans-serif;
-  list-style: none;
-  text-decoration: none;
 }
 body {
   padding: 30px 80px;
@@ -32,9 +30,11 @@ nav {
   display: flex;
   align-items: center;
   gap: 44px;
+  list-style: none;
 }
 
 .nav-link {
+  text-decoration: none;
   color: #424247;
   font-size: 18px;
   font-weight: 400;
@@ -136,6 +136,69 @@ option {
   display: none;
 }
 
+section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.popular-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.popular-info ul {
+  margin-left: -20px;
+}
+
+.popular-info > ul > li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.popular-info,
+.popular-Img {
+  width: 50%;
+}
+
+.info-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.info-disc {
+  margin-top: 24px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.bottom-disc {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.read-btn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+}
+
 @media screen and (max-width: 592px) {
   .none {
     display: none;
@@ -191,5 +254,27 @@ option {
   }
   .fa-bars {
     font-size: 24px;
+  }
+  .popular-container {
+    flex-direction: column;
+    margin: auto;
+  }
+  .popular-info {
+    margin: auto;
+    width: 100%;
+  }
+
+  .popular-Img {
+    width: 100%;
+  }
+  .popular-Img img {
+    width: 100%;
+  }
+
+  .info-title {
+    font-size: 20px;
+  }
+  .info-disc {
+    font-size: 14px;
   }
 }
