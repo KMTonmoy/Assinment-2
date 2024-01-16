@@ -2,6 +2,7 @@
 * {
   margin: 0;
   font-family: "Mulish", sans-serif;
+  overflow-y: ;
 }
 main,
 header {
@@ -529,6 +530,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+  border-radius: 16px;
 }
 .img-title {
   margin: auto;
@@ -939,5 +941,162 @@ footer {
     line-height: 26px;
     margin: 30px 0;
   }
+
+}
+
+@media screen and (min-width:600px) and (max-width: 992px) {
+  main, header{
+    padding: 15px ;
+  }
+  .banner{
+    width: 100%;
+    padding: 0;
+    margin: 50px auto;
+  }
+  .input-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 16px 5px;
+    gap: 10px;
+    width: 100%;
+  }
+  .input-container input, btn-search{
+    /* width: 120px; */
+  }
+  select{
+    width: 150px;
+  }  
+
+  .popular-Img img{
+    width: 100%;
+    height: 550px;
+  }
+
+
+
+
+
+
+  .grid-item1 {
+    width: 410px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../assets/Rectangle 5.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .grid-item2 {
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../assets/Rectangle 8.png");
+    width: 410px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+  }
+  .grid-item3 {
+    background: url("../assets/Rectangle 6.png");
+    width: 310px;
+    height: 286px;
+    background-position: center;
+    background-size: cover;
+  }
+  .grid-item4 {
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../assets/Rectangle 7.png");
+    width: 300px;
+    height: 286px;
+    background-position: center;
+    background-size: cover;
+  }
+  .grid-item5 {
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../assets/Rectangle 9.png");
+    width: 200px;
+    height: 286px;
+    background-position: center;
+    background-size: cover;
+  }
+  .grid-item6 {
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../assets/Rectangle 11.png");
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+  }
+  .grid-item7 {
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 24, 0.2) 0%,
+        rgba(19, 19, 24, 0.2) 100%
+      ),
+      url("../assets/Rectangle 10.png");
+    width: 420px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+  }
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+  
+.nav-links{
+  gap: 20px;
+}
+
+.card{
+  width: 340px;
+}
+
+.card-ban, .card-ban2{
+  width: 96%;
+  padding: 20px;
+
+}
+
+
+
+.card-item{
+  width: 450px;
+}
+
+
+section{
+  display: block;
+}
+.simple-place-info h1{
+  font-size: 35px;
+}
+
+.img-title h1{
+  font-size: 20px;
+}
 
 }
