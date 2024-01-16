@@ -284,7 +284,7 @@ section {
       rgba(19, 19, 24, 0.2) 100%
     ),
     url("../assets/Rectangle 11.png");
-  width: 473px;
+  width: 400px;
   height: 300px;
   background-position: center;
   background-size: cover;
@@ -296,7 +296,7 @@ section {
       rgba(19, 19, 24, 0.2) 100%
     ),
     url("../assets/Rectangle 10.png");
-  width: 673px;
+  width: 400px;
   height: 300px;
   background-position: center;
   background-size: cover;
@@ -313,15 +313,6 @@ section {
   font-size: 28px;
   font-weight: 800;
 }
-
-.grid-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  width: 100%;
-}
-
 .card-container {
   display: flex;
   justify-content: center;
@@ -682,8 +673,6 @@ footer {
   font-weight: 300;
 }
 
-/*                          */
-
 .comment-container {
   display: flex;
   gap: 50px;
@@ -720,6 +709,14 @@ footer {
   font-size: 14px;
   color: #666;
   width: 80%;
+}
+
+.flexs {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 @media screen and (max-width: 592px) {
@@ -1000,69 +997,83 @@ footer {
   .btnseeall {
     display: none;
   }
+  .flexs{
+    flex-direction: column;
+  }
+  .item{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) {
-header{
-  padding: 30px;
-}
-.input-container{
-  padding: 10px;
-  gap: 15px;
-}
-.input-container input{
-  width: 150px;
-}
-.input-container select{
-  width: 150px;
-}
-.input-container button{
-  width: 150px;
-}
-.popular-container{
-  width: 100%;
-}
-.popular-info, .popular-Img {
-  width: 50%;
-  
-}
-.popular-Img img{
-  width: 100%;
-  height: 600px;
-}
-.grid-item1, .grid-item2{
-  width: 410px;
-}
-.grid-item3{
-  width: 245px;
-}
-.grid-item4{
-  width: 350px;
-}
-.grid-item5{
-  width: 204px;
-}
-.grid-item6, .grid-item7{
-  width: 410px;
-}
-.card{
-  width: 340px;
-}
-.card-ban, .card-ban2{
-  padding: 0;
-  width: 100%;
-}
-.card-item{
-  width: 400px;
-  margin: 30px;
-}
-.container{
-  width: 100%;
-}
-.simple-place-info h1{
-  font-size: 35px;
-}
-.img-title{
-  font-size: 15px;
-}
+  header {
+    padding: 30px;
+  }
+  .input-container {
+    padding: 10px;
+    gap: 15px;
+  }
+  .input-container input {
+    width: 150px;
+  }
+  .input-container select {
+    width: 150px;
+  }
+  .input-container button {
+    width: 150px;
+  }
+  .popular-container {
+    width: 100%;
+  }
+  .popular-info,
+  .popular-Img {
+    width: 50%;
+  }
+  .popular-Img img {
+    width: 100%;
+    height: 600px;
+  }
+  .grid-item1,
+  .grid-item2 {
+    width: 573px;
+  }
+  .grid-item3 {
+    width: 374px;
+  }
+  .grid-item4 {
+    width: 480px;
+  }
+  .grid-item5 {
+    width: 274px;
+  }
+  .grid-item6 {
+    width: 473px;
+  }
+  .grid-item7 {
+    width: 673px;
+  }
+  .card {
+    width: 340px;
+  }
+  .card-ban,
+  .card-ban2 {
+    padding: 0;
+    width: 100%;
+  }
+  .card-item {
+    width: 400px;
+    margin: 30px;
+  }
+  .container {
+    width: 100%;
+  }
+  .simple-place-info h1 {
+    font-size: 35px;
+  }
+  .img-title {
+    font-size: 15px;
+  }
+  .grid-container {
+    gap: 10px;
+  }
 }
