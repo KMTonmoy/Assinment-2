@@ -427,7 +427,7 @@ section {
 
 .tour-title {
   color: #131318;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 800;
 }
 .tour-info {
@@ -536,6 +536,95 @@ section {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
+}
+
+.Newsletter-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.from {
+  width: 50%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+.newsletter-Img {
+  width: 50%;
+  height: 422px;
+  border-radius: 16px;
+  background: url("../assets/Rectangle 8 (1).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.frominfo {
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+  padding-bottom: 24px;
+}
+
+.frominfo h1 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.frominfo p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 350px;
+}
+
+.new-input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  width: 95%;
+  height: 20px;
+  margin-top: 16px;
+}
+.btn-subscribe {
+  margin-top: 24px;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+}
+
+.travel-btn {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ff5400;
+  position: absolute;
+  bottom: 49px;
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  right: 9px;
+}
+
+.travel-btn span {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
 }
 
 @media screen and (max-width: 592px) {
@@ -663,7 +752,7 @@ section {
   .card-item {
     width: 80%;
     height: auto;
-    padding: 30px 20px;
+    padding: 8px 0px;
   }
   .card-item p {
     font-size: 12px;
@@ -699,5 +788,91 @@ section {
     font-size: 20px;
     font-weight: 800;
     line-height: 30px;
+  }
+
+  .Newsletter-container {
+    flex-direction: column;
+  }
+
+  .from {
+    width: 95%;
+    height: auto;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding: 10px;
+  }
+  .newsletter-Img {
+    width: 100%;
+    height: 422px;
+    border-radius: 16px;
+    background: url("../assets/Rectangle 8 (1).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .frominfo {
+    border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+    padding-bottom: 24px;
+    padding: 10px;
+  }
+
+  .frominfo h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+
+  .frominfo p {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+  }
+
+  .new-input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 90%;
+    height: 20px;
+    margin-top: 16px;
+  }
+  .btn-subscribe {
+    margin-top: 24px;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+  }
+
+  .travel-btn {
+    width: 90%;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #ff5400;
+    position: absolute;
+    bottom: 49px;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 800;
+    right: 9px;
+  }
+
+  .travel-btn span {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
   }
 }
