@@ -2,6 +2,7 @@
 * {
   margin: 0;
   font-family: "Mulish", sans-serif;
+  overflow-x: hidden;
 }
 main,
 header {
