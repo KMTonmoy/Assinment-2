@@ -682,16 +682,12 @@ footer {
   font-weight: 300;
 }
 
-
 /*                          */
 
-
-
-.comment-container{
-display: flex;
-gap: 50px;
+.comment-container {
+  display: flex;
+  gap: 50px;
 }
-
 
 .comments-card {
   background-color: #fff;
@@ -706,7 +702,6 @@ gap: 50px;
   align-items: center;
   flex-direction: column;
 }
-
 
 .comments-card img {
   width: 80px;
@@ -726,13 +721,6 @@ gap: 50px;
   color: #666;
   width: 80%;
 }
-
-
-
-
-
-
-
 
 @media screen and (max-width: 592px) {
   .none {
@@ -998,21 +986,20 @@ gap: 50px;
     overflow-x: hidden;
   }
 
-  .comment-container{
-     flex-direction: column;
-     justify-content: center;
-     margin: auto;
-    }
-    
-    
-    .comments-card {
-     width: 95%;
-      padding: 10px;
-    }
-    
-    
-  
-    
+  .comment-container {
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .comments-card {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .btnseeall {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
@@ -1167,16 +1154,13 @@ gap: 50px;
     font-size: 20px;
   }
 
-
-  .comment-container{
+  .comment-container {
     justify-content: center;
     margin: auto;
-   }
-   
-   
-   .comments-card {
+  }
+
+  .comments-card {
     width: 100%;
-     padding: 10px;
-   }
-   
+    padding: 10px;
+  }
 }
