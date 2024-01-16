@@ -464,12 +464,78 @@ section {
   background: #ff5400;
   width: 170px;
   height: 32px;
-  padding: 20px; 
+  padding: 20px;
 }
 
-.btn-wrp{
+.btn-wrp {
   display: flex;
   justify-content: center;
+}
+
+.simple-place-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.simple-place-info {
+  width: 50%;
+}
+
+.simple-place-info h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+}
+.simple-place-info p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.simple-place-info > ul > li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-left: -20px;
+  margin-top: 24px;
+}
+
+.btnseeMore {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  width: 174px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  margin-top: 32px;
+}
+
+.simple-place-img {
+  background: url("../assets/Group 40089.png");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.img-title {
+  margin: auto;
+  width: 80%;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
 }
 
 @media screen and (max-width: 592px) {
@@ -609,5 +675,29 @@ section {
   .flex {
     padding: 0 35px;
     flex-wrap: wrap;
+  }
+  .simple-place-container {
+    flex-direction: column;
+  }
+  .simple-place-info {
+    width: 100%;
+  }
+  .simple-place-img {
+    width: 100%;
+    border-radius: 16px;
+  }
+  .img-title {
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+  }
+  .simple-place-info h1 {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
   }
 }
